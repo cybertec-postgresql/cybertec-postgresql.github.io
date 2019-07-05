@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+[![Website][website-shield]][website-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter][twitter-shield]][twitter-url]
+[![Facebook][facebook-shield]][facebook-url]
 
-You can use the [editor on GitHub](https://github.com/cybertec-postgresql/cybertec-postgresql.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[website-shield]: https://img.shields.io/badge/-cybertec--postgresql.com-ff9400.svg?style=flat-square&logo=mozilla-firefox&logoColor=fff
+[website-url]: https://www.cybertec-postgresql.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[linkedin-shield]: https://img.shields.io/badge/-Cybertec-0077b5.svg?style=flat-square&logo=linkedin
+[linkedin-url]: https://www.linkedin.com/company/cybertec-sch-nig-&-sch-nig-gmbh
 
-### Markdown
+[twitter-shield]: https://img.shields.io/badge/-@PostgresSupport-1da1f2.svg?style=flat-square&logo=twitter&logoColor=fff
+[twitter-url]: https://twitter.com/PostgresSupport
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[facebook-shield]: https://img.shields.io/badge/-Cybertec-4172b8.svg?style=flat-square&logo=facebook&logoColor=fff
+[facebook-url]: https://www.facebook.com/cybertec.postgresql
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## List of Cybertec open-source projects
 
-- Bulleted
-- List
+### PostgreSQL
 
-1. Numbered
-2. List
+- [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2)
+- [pg_permission](https://github.com/cybertec-postgresql/pg_permission)
+- [ora-migrator](https://github.com/cybertec-postgresql/ora-migrator)
+- [vip-manager](https://github.com/cybertec-postgresql/vip-manager)
 
-**Bold** and _Italic_ and `Code` text
+### Other
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cybertec-postgresql/cybertec-postgresql.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [rjsf-material-ui](https://github.com/cybertec-postgresql/rjsf-material-ui)
