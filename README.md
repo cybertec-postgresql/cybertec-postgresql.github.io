@@ -17,14 +17,3 @@
 
 
 ## List of Cybertec open-source projects
-
-### PostgreSQL
-
-- [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2)
-- [pg_permission](https://github.com/cybertec-postgresql/pg_permission)
-- [ora-migrator](https://github.com/cybertec-postgresql/ora-migrator)
-- [vip-manager](https://github.com/cybertec-postgresql/vip-manager)
-
-### Other
-
-- [rjsf-material-ui](https://github.com/cybertec-postgresql/rjsf-material-ui)
