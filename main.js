@@ -34,7 +34,7 @@ const renderRepo = (repo) => {
 
 // latest repositories
 (async () => {
-	const url = new URL('https://cybertec-postgresql-api.agustin107.now.sh');
+	const url = new URL('https://cybertec-postgresql-api.agustin107.now.sh/repos');
 
 	const json = await (await fetch(url)).json();
 
