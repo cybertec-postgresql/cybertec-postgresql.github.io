@@ -24,8 +24,8 @@ const renderRepo = (repo) => {
 	const li = document.createElement('li');
 	const anchor = document.createElement('a');
 
-	anchor.setAttribute('href', dataProject.html_url);
-	anchor.innerHTML = dataProject.name;
+	anchor.setAttribute('href', repo.html_url);
+	anchor.innerHTML = repo.name;
 
 	li.appendChild(anchor);
 
