@@ -12,11 +12,7 @@ const injectScript = (source, callback) => {
 };
 
 const renderProjectList = (project) => {
-	const titleProjectNode = document.createElement('h3');
-	const titleProjectContent = document.createTextNode(project);
 	const list = document.createElement("ul");
-
-	titleProjectNode.appendChild(titleProjectContent);
 
 	list.setAttribute("id", `${project}-projects`);
 
@@ -44,7 +40,12 @@ const renderRepo = (repo) => {
 	const container = dom.select('#list-of-cybertec-open-source-projects').parentNode;
 	
 	for (const project in json) {
+		const titleProjectNode = document.createElement('h3');
+		const titleProjectContent = document.createTextNode(project);
 		const domProjectList = renderProjectList(project);
+
+		titleProjectNode.appendChild(titleProjectContent);
+		container.appendChild(titleProjectNode);
 		
 		for (const repo in project) {
 			const domRepo = renderRepo(json[project][repo]);
