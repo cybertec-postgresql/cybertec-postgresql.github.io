@@ -11,10 +11,13 @@ const injectScript = (source, callback) => {
 	document.head.appendChild(script);
 };
 
-const insertHypenationHintsForCamelCase = string => string.replace(/([a-z])([A-Z])/g, '$1\u00AD$2');
-
 const renderProjectList = (project) => {
+	const titleProjectNode = document.createElement('h3');
+	const titleProjectContent = document.createTextNode(project);
 	const list = document.createElement("ul");
+
+	titleProjectNode.appendChild(titleProjectContent);
+
 	list.setAttribute("id", `${project}-projects`);
 
 	return list;
@@ -38,13 +41,13 @@ const renderRepo = (repo) => {
 
 	const json = await (await fetch(url)).json();
 
-	const container = dom.select('#list-of-cybertec-open-source-projects');
+	const container = dom.select('#list-of-cybertec-open-source-projects').parentNode;
 	
 	for (const project in json) {
 		const domProjectList = renderProjectList(project);
 		
 		for (const repo in project) {
-			const domRepo = renderRepo(repo);
+			const domRepo = renderRepo(json[project][repo]);
 
 			domProjectList.appendChild(domRepo);
 		}
